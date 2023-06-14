@@ -43,13 +43,13 @@ A brief description of your CRUD project built with Laravel.
 Visit http://localhost:8000 in your web browser to access the application.
 
 ## Usage
-    Explain how to use your CRUD application. Provide instructions on how to perform create, read, update, and delete operations. You can also include screenshots or code snippets to demonstrate the usage.
+   Explain how to use your CRUD application. Provide instructions on how to perform create, read, update, and delete operations. You can also include screenshots or code snippets to demonstrate the usage.
 
 ## Features
-    List the key features of your CRUD application. For example:
+   List the key features of your CRUD application. For example:
 
-    Create new records
-    Read existing records
-    Update records
-    Delete records
-    You can also mention any additional features or functionalities that are unique to your project.
+   Create new records
+   Read existing records
+   Update records
+   Delete records
+   You can also mention any additional features or functionalities that are unique to your project.
