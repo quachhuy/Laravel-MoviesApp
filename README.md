@@ -7,8 +7,6 @@ A brief description of your CRUD project built with Laravel.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -17,44 +15,32 @@ A brief description of your CRUD project built with Laravel.
    ```bash
    git clone https://github.com/your-username/your-repository.git
 
-Navigate to the project directory:
-
-bash
-Copy code
+2. Navigate to the project directory:
 cd your-repository
-Install the dependencies:
+3. Install the dependencies:
 
-bash
-Copy code
 composer install
 Create a copy of the .env file:
 
 bash
 Copy code
 cp .env.example .env
-Generate the application key:
+4. Generate the application key:
 
-bash
-Copy code
+
 php artisan key:generate
-Set up your database configuration in the .env file.
+5. Set up your database configuration in the .env file.
 
-Run the database migrations:
-
-bash
-Copy code
+6. Run the database migrations:
 php artisan migrate
-Start the development server:
-
-bash
-Copy code
-php artisan serve
+7. Start the development server:
+    php artisan serve
 Visit http://localhost:8000 in your web browser to access the application.
 
-Usage
+##Usage
 Explain how to use your CRUD application. Provide instructions on how to perform create, read, update, and delete operations. You can also include screenshots or code snippets to demonstrate the usage.
 
-Features
+##Features
 List the key features of your CRUD application. For example:
 
 Create new records
