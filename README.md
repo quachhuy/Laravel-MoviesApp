@@ -1,6 +1,6 @@
-# Project Name
+# AirplaneSoft
 
-A brief description of your CRUD project built with Laravel.
+This is my demo project for study php with laravel. thank for watching 💗
 
 ## Table of Contents
 
