@@ -16,25 +16,30 @@ A brief description of your CRUD project built with Laravel.
    git clone https://github.com/your-username/your-repository.git
 
 2. Navigate to the project directory:
-cd your-repository
+
+        cd your-repository
+        
 3. Install the dependencies:
 
-composer install
-Create a copy of the .env file:
+        composer install
+        
+5. Create a copy of the .env file:
 
-bash
-Copy code
-cp .env.example .env
-4. Generate the application key:
+        cp .env.example .env
+        
+5. Generate the application key:
 
-
-php artisan key:generate
-5. Set up your database configuration in the .env file.
+        php artisan key:generate
+        
+6. Set up your database configuration in the .env file.
 
 6. Run the database migrations:
-php artisan migrate
+
+        php artisan migrate
 7. Start the development server:
-    php artisan serve
+
+        php artisan serve
+        
 Visit http://localhost:8000 in your web browser to access the application.
 
 ## Usage
