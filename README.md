@@ -1,6 +1,6 @@
 # AirplaneSoft
 
-This is my demo project for study php with laravel. thank for watching 💗
+This is my demo project for study php with laravel. Thanks for watching 💗
 
 ## Table of Contents
 
