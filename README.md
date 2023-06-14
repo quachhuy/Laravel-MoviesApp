@@ -33,6 +33,10 @@ A brief description of your CRUD project built with Laravel.
         
 6. Set up your database configuration in the .env file.
 
+7. Seeding database:
+        
+        php artisan db:seed --class=FlightTableSeeder
+
 6. Run the database migrations:
 
         php artisan migrate
