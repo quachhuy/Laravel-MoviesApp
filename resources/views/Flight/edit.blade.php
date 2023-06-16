@@ -29,12 +29,12 @@
         </div>
         <div class="form-group">
             <label for="departure_time">Departure Time</label>
-            <input type="datetime-local" class="form-control" id="departure_time" name="departure_time"
+            <input type="date" class="form-control" id="departure_time" name="departure_time"
                 value="{{ $flight->Departure_Time }}" required>
         </div>
         <div class="form-group">
             <label for="arrival_time">Arrival Time</label>
-            <input type="datetime-local" class="form-control" id="arrival_time" name="arrival_time"
+            <input type="date" class="form-control" id="arrival_time" name="arrival_time"
                 value="{{ $flight->Arrival_Time}}" required>
         </div>
         <div class="form-group">
