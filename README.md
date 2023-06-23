@@ -33,13 +33,13 @@ This is my demo project for study php with laravel. Thanks for watching 💗
         
 6. Set up your database configuration in the .env file.
 
-7. Seeding database:
+7. Run the database migrations:
         
-        php artisan db:seed --class=FlightTableSeeder
-
-6. Run the database migrations:
-
         php artisan migrate
+
+6. Seeding DB:
+
+        php artisan db:seed --class=FlightTableSeeder
 7. Start the development server:
 
         php artisan serve
