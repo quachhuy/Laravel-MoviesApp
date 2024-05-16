@@ -1,59 +1,25 @@
-# AirplaneSoft
+![screenshot](https://user-images.githubusercontent.com/4316355/78681326-98bd1480-78ba-11ea-9cd8-3052397a87a7.png)
 
-This is my demo project for study php with laravel. Thanks for watching 💗
+# Laravel Movies Example
 
-## Table of Contents
+Code for YouTube video series: https://www.youtube.com/playlist?list=PLEhEHUEU3x5pYTjZze3fhYMB4Nl_WOHI4
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
+Demo URL: https://movies.andredemos.ca
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repo and `cd` into it
+1. `composer install`
+1. Rename or copy `.env.example` file to `.env`
+1. Set your `TMDB_TOKEN` in your `.env` file. You can get an API key [here](https://www.themoviedb.org/documentation/api). Make sure to use the "API Read Access Token (v4 auth)" from the TMDb dashboard.
+1. `php artisan key:generate`
+1. `php artisan serve` or use Laravel Valet or Laravel Homestead
+1. Visit `localhost:8000` in your browser
 
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
+## Starting from a particular point
 
-2. Navigate to the project directory:
+If you would like to follow along and start from a particular point, follow these instructions. You can choose any point by replacing the hash with [any particular commit](https://github.com/drehimself/laravel-movies-example/commits/master). The commits correspond to the different video parts (mostly).
 
-        cd your-repository
-        
-3. Install the dependencies:
+1. Clone the repo and `cd` into it
+1. `git checkout 22fa456`
 
-        composer install
-        
-5. Create a copy of the .env file:
-
-        cp .env.example .env
-        
-5. Generate the application key:
-
-        php artisan key:generate
-        
-6. Set up your database configuration in the .env file.
-
-7. Run the database migrations:
-        
-        php artisan migrate
-
-6. Seeding DB:
-
-        php artisan db:seed --class=FlightTableSeeder
-7. Start the development server:
-
-        php artisan serve
-        
-Visit http://localhost:8000 in your web browser to access the application.
-
-## Usage
-   Explain how to use your CRUD application. Provide instructions on how to perform create, read, update, and delete operations. You can also include screenshots or code snippets to demonstrate the usage.
-
-## Features
-   List the key features of your CRUD application. For example:
-
-   Create new records
-   Read existing records
-   Update records
-   Delete records
-   You can also mention any additional features or functionalities that are unique to your project.
